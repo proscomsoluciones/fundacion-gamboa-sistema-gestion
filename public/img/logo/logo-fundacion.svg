@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .navy-text {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Montserrat, sans-serif;
+        font-weight: 800;
+        fill: #0B2545;
+        letter-spacing: -0.5px;
+      }
+      .tagline-bg { fill: #E60067; }
+      .tagline-text {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        font-weight: 700;
+        fill: #FFFFFF;
+        letter-spacing: 0.5px;
+      }
+      .heart-stroke {
+        fill: none;
+        stroke: #FF2A85;
+        stroke-width: 14;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Trazo del Corazón / Cinta -->
+  <path class="heart-stroke" d="M 265 345 C 190 325 15 285 15 150 C 15 65 95 65 145 125 C 160 145 175 175 160 190 C 145 205 130 185 135 150 C 145 80 245 85 245 185" />
+
+  <!-- Texto Principal -->
+  <text x="130" y="210" class="navy-text" font-size="28">FUNDACIÓN</text>
+  <text x="130" y="260" class="navy-text" font-size="44">MIGUEL ÁNGEL</text>
+  <text x="130" y="305" class="navy-text" font-size="46">GAMBOA</text>
+
+  <!-- Badge / Subtexto -->
+  <rect x="340" y="278" width="170" height="20" rx="2" class="tagline-bg" />
+  <text x="346" y="293" class="tagline-text" font-size="9.5">JUNTOS CONTRA EL CÁNCER</text>
+</svg>
